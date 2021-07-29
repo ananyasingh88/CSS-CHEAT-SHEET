@@ -61,6 +61,10 @@ a:visited{
 
 }
 
+.clr{
+	clear: both;
+}
+
 .box2{
 	background-color: #333;
 	color: #ffffff;
@@ -143,3 +147,66 @@ a:visited{
 	padding: 10px;
 	box-sizing: border-box;
 }
+
+#mainblock{
+	float: left;
+	width: 70%;
+}
+
+#sidebar{
+	float: right;
+	width: 30%;
+	background-color: #333;
+	color:#fff;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+.pbox{
+	width: 800px;
+	height: 500px;
+	border:1px solid red;
+	margin-top: 30px;
+	position: relative;
+	background-image: url(light.webp);
+    background-position: 100px 200px;
+    background-repeat: no-repeat;
+    background-position: center center;  
+}
+
+.pbox h1{
+	position: absolute;
+	top: 100px;
+
+}
+
+.pbox h2{
+	position: absolute;
+	bottom: 40px;
+	right: 100px;
+}
+
+.fixme{
+	position: fixed;
+	top:400px;
+
+}
+
+.mylist li:first-child{
+ background: red;
+}
+
+.mylist li:last-child{
+	background: blue;
+}
+
+.mylist li:nth-child(5){
+	background: yellow;
+
+}
+
+.mylist li:nth-child(even){
+	background: grey;
+
+}
+
